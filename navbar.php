@@ -12,4 +12,6 @@
 		echo  $beginLink . $linksRows['catName'] . $endLink;
 	}
 	while ($linksRows = mysqli_fetch_assoc($linksData))
+		
+	
 ?>

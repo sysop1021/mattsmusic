@@ -1,7 +1,6 @@
 html
 {
 	font-family: Lato;
-	/*background-image: url("../assets/bg.jpg");*/
 	background-color: #2f2f2f;
 }
 
@@ -52,7 +51,20 @@ html
 	text-align: center;
 }
 
-.nav a
+.tip
+{
+	font-size: small;
+	color: #a5a5a5;
+}
+
+.req-alert
+{
+	color:  #ce1d10;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.nav a, button, .admin-link
 {
 	text-decoration: none;
 	margin-left: 5px;
@@ -63,15 +75,65 @@ html
 	border: 1px solid #2f2f2f;
 	border-radius: 3px;
 	transition: all 0.2s ease-in;
+	font-size: medium;
 }
 
-.nav a:hover
+.admin-link
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.nav a:hover, button:hover, .admin-link:hover
 {
     background-color: #f0f0f0;
     color: #2f2f2f;
 }
 
+button
+{
+	width: 100px;
+}
+
+.del-button
+{
+	background-color: #ce1d10;
+	color: #f0f0f0;
+	border: 1px solid #ce1d10;
+}
+
+.del-button:hover
+{
+	background-color: #f0f0f0;
+	color: #ce1d10;
+}
+
+#admin a
+{
+	background-color: #2ca58b;
+	border-color: #2ca58b;
+}
+
+#admin a:hover
+{
+	background-color: #f0f0f0;
+    color: #2ca58b;
+}
+
 .content img
 {
 	vertical-align: middle;
+}
+
+textarea
+{
+	font-family: Lato;
+	font-size: small;
+	width: 400px;
+	height: 100px;
+}
+
+.l-txt-input, select
+{
+	width: 300px;
 }
